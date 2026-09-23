@@ -1,0 +1,88 @@
+{
+  "patients": [
+    {
+      "id": "p1",
+      "name": "Maria Silva",
+      "phone": "(11) 99999-9999",
+      "insurance": "Unimed",
+      "insurance_card": "UN-123456"
+    },
+    {
+      "id": "p2",
+      "name": "João Santos",
+      "phone": "(11) 98888-7777",
+      "insurance": "Amil",
+      "insurance_card": "AM-654321"
+    },
+    {
+      "id": "p3",
+      "name": "Ana Oliveira",
+      "phone": "(11) 97777-6666",
+      "insurance": "SulAmérica",
+      "insurance_card": "SA-112233"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "a1",
+      "patient_id": "p1",
+      "date": "2026-09-24",
+      "time": "14:00",
+      "specialty": "Clínica Médica",
+      "attendance_status": "pendente",
+      "checkin_status": "pendente"
+    },
+    {
+      "id": "a2",
+      "patient_id": "p2",
+      "date": "2026-09-24",
+      "time": "15:00",
+      "specialty": "Clínica Médica",
+      "attendance_status": "pendente",
+      "checkin_status": "nao_respondeu"
+    },
+    {
+      "id": "a3",
+      "patient_id": "p3",
+      "date": "2026-09-24",
+      "time": "16:00",
+      "specialty": "Clínica Médica",
+      "attendance_status": "pendente",
+      "checkin_status": "pendente"
+    }
+  ],
+  "precheckins": [
+    {
+      "id": "c1",
+      "patient_id": "p1",
+      "appointment_id": "a1",
+      "attendance_confirmed": null,
+      "registration_status": "pendente",
+      "triage_status": "pendente",
+      "triage_answers": [],
+      "completed_at": null
+    },
+    {
+      "id": "c2",
+      "patient_id": "p2",
+      "appointment_id": "a2",
+      "attendance_confirmed": null,
+      "registration_status": "pendente",
+      "triage_status": "pendente",
+      "triage_answers": [],
+      "completed_at": null,
+      "no_response": true
+    },
+    {
+      "id": "c3",
+      "patient_id": "p3",
+      "appointment_id": "a3",
+      "attendance_confirmed": null,
+      "registration_status": "pendente",
+      "triage_status": "pendente",
+      "triage_answers": [],
+      "completed_at": null
+    }
+  ],
+  "audit_log": []
+}
