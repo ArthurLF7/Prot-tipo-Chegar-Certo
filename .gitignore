@@ -1,0 +1,7 @@
+# runtime (estado local, regenerado pelo seed em server.js)
+data.json
+
+# deps / SO
+node_modules/
+.DS_Store
+Thumbs.db
